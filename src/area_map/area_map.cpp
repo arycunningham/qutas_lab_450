@@ -32,6 +32,9 @@ AreaMap::AreaMap() :
 
 		ROS_INFO("Loading obstacle %i (%s)", i, obs_type.c_str());
 
+		std::string type_square("square")
+		std::string type_circle("circle")
+
 		if(obs_type == "square") {
 			obs.type = OBS_SQUARE;
 		} else if(obs_type == "circle") {
